@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("Life Recycle","onStart Called" );
+        Log.d("Life Recycle","onCreate Called" );
             editTG=findViewById(R.id.editTG);
 //        editTen=findViewById(R.id.editTen);
         SimpleDateFormat spF = new SimpleDateFormat("HH:mm:ss");
